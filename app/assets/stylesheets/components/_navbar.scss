@@ -8,6 +8,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #0066FF;
+  border-bottom: solid 10px;
+  border-color: black;
+}
+
+.navbar-wagon h3 {
+  letter-spacing: 3px;
+}
+
+.navbar-wagon a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.navbar-wagon a:hover {
+  text-decoration: none !important;
 }
 
 /* Logo */

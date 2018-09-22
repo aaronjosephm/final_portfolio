@@ -1,0 +1,11 @@
+.avatar {
+  height: 200px;
+  width: 175px;
+  border-radius: 50%;
+  background-image: asset-url("profile.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: visible;
+  position: absolute;
+  margin-left: 50px;
+}

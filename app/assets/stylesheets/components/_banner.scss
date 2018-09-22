@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600,700,800,900|Roboto:400,100,300,700,500');
+
+.article-banner {
+
+  display: inline-grid;
+  text-align: center;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
+
+.contact-banner  {
+  height: 250px;
+  width: 100%;
+  background-image: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.2)), asset-url("banner3");
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.contact-banner h1 {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  color: white;
+  font-size: 4em;
+  letter-spacing: 1px;
+}
+
+.contact-banner h2 {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  color: white;
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+
+.about-banner  {
+  height: 250px;
+  width: 100%;
+  background-image: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.2)), asset-url("banner3");
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.about-banner h1 {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  color: white;
+  font-size: 4em;
+  letter-spacing: 1px;
+}
+
+
+
+.about-banner h2 {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  color: white;
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+
+.landing-banner {
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.2)), asset-url("portfolio_banner.jpg");
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  margin-bottom: 0;
+  color: white;
+  margin-bottom: -100px;
+
+
+}
+
+.landing-banner h1 {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  color: white;
+  font-size: 3.5em;
+  letter-spacing: 1px;
+
+}
+
+.landing-banner h2 {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  color: white;
+  font-size: 3em;
+  letter-spacing: 1px;
+  margin-top: -2em;
+}
+
+.landing-banner-gradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  // background-image: linear-gradient(45deg, rgba(80, 80, 80, 0.4), rgba(80, 80, 80, 0.2));
+  z-index: -1;
+
+}
+
+.landing-banner-content  {
+  z-index: 1;
+  margin: 80px;
+  margin-left: 900px;
+  h1 {
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-family: "Nunito";
+    font-size: 30px;
+    font-weight: 300;
+    opacity: 0.85;
+    color: red;
+  }
+}
+
+.landing-banner-content {
+  // color: #E0D9C6;
+
+}
+
+.size-select-container {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 4vh;
+  margin-bottom: 1vh;
+  padding-bottom: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  // text-align: right;
+}
+
+.size-select-container select {
+  border-radius: 0 !important;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-container #video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: 20vw;
+  height: 20vh;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
