@@ -10,10 +10,10 @@ class PagesController < ApplicationController
     email = params[:email]
     if UserMailer.test(email, message, name).deliver_now
       flash[:alert] = "Your message has been sent! We will get back to you shortly!"
-      redirect_to landing_path
+      redirect_to root_path
     else
       flash[:alert] = "Please fill out required fields!"
-      redirect_to landing_path
+      redirect_to root_path
     end
   end
 end
