@@ -25,7 +25,7 @@ class UserMailer < ApplicationMailer
       return false
     else
       mail(
-        subject: 'Transformation Fitness welcomes you!',
+        subject: 'Aaron will get back to you!',
         to: email,
         from: 'administrator@siphercatta.com',
         html_body: '<strong>Hello</strong> dear Postmark user.',
