@@ -8,9 +8,21 @@
 
 a {
   text-decoration: none !important;
-
 }
 
 a:hover {
   text-decoration: none !important;
+}
+
+p {
+  font-family: "Helvetica" !important;
+  font-size: 15px !important;
+}
+
+h2 {
+  font-family: "IBM Plex Sans" !important;
+  font-weight: bold !important;
+  color: white;
+  font-size: 3em !important;
+  letter-spacing: 1px !important;
 }
