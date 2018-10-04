@@ -5,12 +5,12 @@
   flex: 5 1 auto;
   margin: 15px;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  // box-shadow: 0 0 15px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
 }
 .card:hover {
   margin-top: -300px;
-  background-color: #0066FF;
+  background-color: #0066FF !important;
   color: white;
 }
 .card-body {
@@ -47,7 +47,7 @@
 .card-description p {
   font-size: 14px;
   font-weight: lighter;
-  opacity: 0.9;
+
 }
 .card-link {
   position: absolute;
@@ -65,8 +65,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding: 50px;
+  &:hover{
+    background-color: #0066FF !important;
+  }
 }
+
 
 .card-footer .controls{
   display: flex;
