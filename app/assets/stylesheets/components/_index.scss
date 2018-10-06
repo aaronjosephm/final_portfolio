@@ -6,6 +6,14 @@
 @import "footer";
 @import "card";
 
+@font-face {
+  font-family: 'Helvetica Rounded-Black';
+  src:
+    local('Helvetica Rounded-Black'),
+    url('fonts/HelveticaRounded-Black.otf')
+    format('truetype');
+}
+
 
 a {
   text-decoration: none !important;
@@ -16,12 +24,12 @@ a:hover {
 }
 
 p {
-  font-family: "Helvetica" !important;
+  font-family: "Nunito" !important;
   font-size: 15px !important;
 }
 
 h2 {
-  font-family: "IBM Plex Sans" !important;
+  font-family: 'Helvetica' !important;
   font-weight: bold !important;
   color: white;
   font-size: 3em !important;
