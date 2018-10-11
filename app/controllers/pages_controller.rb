@@ -9,7 +9,7 @@ class PagesController < ApplicationController
     message = params[:message]
     email = params[:email]
     if UserMailer.test(email, message, name).deliver_now
-      UserMailer.notify.deliver_now
+      # UserMailer.notify.deliver_now
       flash[:alert] = "Your message has been sent! We will get back to you shortly!"
       redirect_to root_path
     else
