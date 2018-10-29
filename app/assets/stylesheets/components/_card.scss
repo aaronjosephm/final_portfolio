@@ -10,7 +10,7 @@
 }
 .card:hover {
   margin-top: -300px;
-  background-color: #0066FF !important;
+
   color: white;
 }
 .card-body {
@@ -18,7 +18,14 @@
   background-size: cover;
   color: white;
   position: relative;
+
 }
+
+.card-body:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
 .card-user {
   position: absolute;
   right: 10px;
