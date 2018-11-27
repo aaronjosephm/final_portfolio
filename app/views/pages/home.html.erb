@@ -200,3 +200,22 @@ page, and if you’d like to get in touch I have a contact form below. </p>
     <button type="submit" class="btn btn-secondary btn-lg btn-block" style="border-radius: 0 !important; background-color: #0066FF !important; letter-spacing: 2px;">SEND!</button>
   <% end %>
 </div>
+
+
+<div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <p>Hey there!</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  console.log("hello");
+  $(document).ready(function() {
+    setTimeout(function() {
+      console.log("hello");
+      $('#myModal').modal('show');
+    }, 1000); // milliseconds
+  });
+</script>
