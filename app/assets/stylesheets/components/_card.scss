@@ -19,7 +19,53 @@
   background-size: cover;
   color: white;
   position: relative;
+}
 
+.project-card {
+  background-position: center;
+  background-size: cover; 
+}
+
+.project-card-body-1 {
+  background-position: center;
+  background-size: cover; 
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), asset-url("arcGISapp.png");
+}
+
+.project-card-body-2 {
+  background-position: center;
+  background-size: cover; 
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), asset-url("livebliss_bg.png");
+}
+
+.project-card-body-3 {
+  background-position: center;
+  background-size: cover; 
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), asset-url("transformation_fitness.JPG");
+}
+
+.project-card-body-4 {
+  background-position: center;
+  background-size: cover; 
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), asset-url("fitted.JPG");
+}
+
+.project-card-body-5 {
+  background-position: center;
+  background-size: cover; 
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), asset-url("project_warehouse.JPG");
+}
+
+.project-card-body-6 {
+  background-position: center;
+  background-size: cover; 
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), asset-url("les_cocktails.JPG");
+}
+
+.project-card-body-7 {
+  background-position: center;
+  background-size: cover; 
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), asset-url("random_matcher.JPG");
 }
 
 .card-body:hover {

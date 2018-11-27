@@ -14,3 +14,29 @@
   color: black;
   border-bottom: solid 1px black;
 }
+
+.project-description {
+  display: flex;
+  justify-content: center; 
+  margin-top: 10px; 
+  padding-left: 0px !important; 
+  padding-right: 0px !important
+}
+
+.contact-description {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-description p {
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  text-align: center;
+}
+
+.contact-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
