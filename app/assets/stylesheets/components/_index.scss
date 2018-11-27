@@ -35,3 +35,15 @@ h2 {
   font-size: 3em !important;
   letter-spacing: 1px !important;
 }
+
+@media (max-width: 1020px) {
+   h2 {
+    font-size: 20px !important;
+   }
+  }
+
+  @media (max-width: 772px) {
+   h2 {
+    font-size: 18px !important;
+   }
+  }
